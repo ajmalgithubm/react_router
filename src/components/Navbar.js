@@ -16,6 +16,7 @@ const Navbar = () => {
                 <div style={{ display: 'flex', justifyContent: "start", gap: "20px" }}>
                     <NavLink style={LinkStyle} to="/" >HOME</NavLink>
                     <NavLink style={LinkStyle} to="/about">ABOUT</NavLink>
+                    <NavLink style={LinkStyle} to="/products">PRODUCTS</NavLink>
                 </div>
             </nav>
         </>
